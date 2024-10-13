@@ -20,28 +20,35 @@ public class Team {
 
     /**
      * Constructor a team with a given name.
+     * 
      * @param name name of the team
      */
     public Team(String name) {
         this.name = name;
         this.members = new ArrayList<String>();
     }
+
     /**
      * Add a member to the team
+     * 
      * @param member members name
      */
     public void addMember(String member) {
         this.members.add(member);
     }
+
     /*
      * Get the name of the team
+     * 
      * @return the name of the team
      */
     public String getName() {
         return this.name;
     }
+
     /*
      * Get the members of the team
+     * 
      * @return the members of the team
      */
     public ArrayList<String> getMembers() {
@@ -62,6 +69,7 @@ public class Team {
 
     /**
      * Check if a team is equal to another object
+     * 
      * @param obj object to compare to
      * @return true if the object is a team with the same name and members
      */
